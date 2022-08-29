@@ -1,0 +1,74 @@
+.background__Linguagem {
+    background: rgb(2,0,36);
+    background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgb(0, 0, 0) 35%, rgb(0, 0, 0) 100%);
+    padding: 0rem;
+    margin: 2rem;
+
+}
+
+.titulo-linguagem {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    transition: all .5s;
+    color: #fff;
+    margin-bottom: 2rem;
+    margin: 3rem;
+}
+
+.titulo-linguagem:hover {
+    transform: scale(1.1);
+}
+
+.container__linguagens {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linguagens__item {
+    text-align: center;
+    margin: 1rem;
+    transition: all .5s;
+}
+
+.linguagens__item:hover {
+    transform: scale(1.1);
+}
+
+
+
+.Imagens__linguagens {
+    cursor: pointer;
+    width: 10rem;
+}
+
+.linguagem {
+    font-size: 2rem;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    margin: 1rem;
+    color: #fff;
+}
+
+.estrelas {
+    border: solid 1px #000;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+}
+
+@media screen and (min-width: 375px){
+    .container__linguagens {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .background__Linguagem {
+        background: rgb(48, 47, 47);
+        padding: 0rem;
+        margin-top: 1rem;
+        border:  solid #000 1px;
+       
+    }
+}

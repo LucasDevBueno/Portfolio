@@ -1,0 +1,123 @@
+.projeto {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    transition: all .5s;
+    margin-bottom: 2rem;
+    margin-top:2rem ;
+}
+
+.projeto:hover{
+    transform: scale(1.1);
+}
+
+.container__cover {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(68,68,156,1) 35%, rgba(255,255,255,1) 100%);
+}
+
+.cover__spotify {
+    width: 300px;
+    cursor: pointer;
+    margin: 2rem;
+    border-radius: 100px;
+    transition: all .5s;
+    margin-bottom: 3rem;
+}
+
+.cover__spotify:hover {
+    border-radius: 15px;
+}
+
+.progresso {
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.progresso:hover {
+    transform: scale(none);
+}
+
+.pronto {
+    border: 2px solid rgb(0, 0, 0);
+    height: 200px;   
+}
+
+.pronto:hover{
+    transform: scale(1.1);
+    border: 2px solid rgb(33, 47, 28);
+}
+
+.container-copy {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 375px){ 
+    .container__cover {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        padding: 0rem;
+        margin: 0rem;
+        background: rgb(2,0,36);
+        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(68,68,156,1) 35%, rgba(255,255,255,1) 100%);
+    }
+    
+    .cover__spotify {
+        width: 300px;
+        cursor: pointer;
+        margin: 0rem;
+        border-radius: 100px;
+        transition: all .5s;
+        margin-bottom: 3rem;
+    }
+
+    .progresso {
+        display: none;
+    }
+}
+
+@media screen  and (min-width: 768px){
+    .cover__spotify {
+        width: 300px;
+        cursor: pointer;
+        margin: 1rem;
+        border-radius: 100px;
+        transition: all .5s;
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .progresso {
+        display: block;
+    }
+
+    .cover__spotify {
+        width: 350px;
+        cursor: pointer;
+        margin: 2rem;
+        border-radius: 100px;
+        transition: all .5s;
+        margin-bottom: 3rem;
+        border: solid 2px #fff;
+    }
+
+    .container__cover {
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        padding: 2rem;
+        margin: 2rem;
+        background: rgb(56, 56, 56);
+    }
+    
+}

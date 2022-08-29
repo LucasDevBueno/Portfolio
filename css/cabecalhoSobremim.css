@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+body {
+    background-color:rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+}
+
+.container-header {
+    display: flex;
+    justify-content: center;
+}
+
+.container-header__item {
+    font-size: 1rem;
+    padding: 2rem;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+
+
+.container-header__item:hover {
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+.container-header__item:hover {
+    transform: scale(1.1);
+
+}
+.lisobre {
+    font-weight: bold;
+}
+
+body{
+	margin:0;
+	padding:0;
+	font-family:"arial",heletica,sans-serif;
+	font-size:12px;
+    background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+	-webkit-animation: 10s linear 0s normal none infinite animate;
+	-moz-animation: 10s linear 0s normal none infinite animate;
+	-ms-animation: 10s linear 0s normal none infinite animate;
+	-o-animation: 10s linear 0s normal none infinite animate;
+	animation: 10s linear 0s normal none infinite animate;
+ 
+}
+ 
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+
+

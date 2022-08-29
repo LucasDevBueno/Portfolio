@@ -1,0 +1,103 @@
+.container__sobre {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .container__sobreMim {
+    display: grid;
+    margin: 2rem;
+    border: solid 1px rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+  }
+  
+  .sobre_mim-h3 {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    font-size: 5rem;
+    color: rgb(234, 236, 236);
+    text-shadow: 0px 0px 10px  rgb(0, 0, 0);
+    
+  }
+  
+  .sobre_mim-p {
+    font-size: 22px;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+  }
+
+  .sobre_mim-p:hover {
+    color: rgb(170, 170, 170);
+
+  }
+  
+  .cor-curriculo {
+    color: rgb(255, 255, 255);
+    
+  }
+
+  .botao-borda {
+    border: #fff solid 2px;
+    width: 600px;
+    height: 100px;
+  }
+
+  @media screen and (min-width: 375px){
+    .sobre_mim-h3 {
+      font-family: 'Fjalla One', sans-serif;
+      text-transform: uppercase;
+      font-size: 2rem;
+      color: rgb(234, 236, 236);
+      text-shadow: 0px 0px 10px  rgb(0, 0, 0);
+  }
+    .sobre_mim-p {
+      font-size: 15px;
+      padding-top: 1rem;
+      width: 100%;
+      font-family: 'Roboto Mono', monospace;
+      color: #fff;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sobre_mim-h3 {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: rgb(234, 236, 236);
+    text-shadow: 0px 0px 10px  rgb(0, 0, 0);
+}
+  .sobre_mim-p {
+    font-size: 22px;
+    padding-top: 1rem;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+}
+
+.container__sobreMim {
+  display: grid;
+  margin: 2rem;
+  border: solid 1px rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 20px;
+  background-color: rgb(0, 0, 0);
+  width: 80%;
+}
+}
+
+@media screen and (min-width: 1024px) {
+  .container__sobreMim {
+    display: grid;
+    margin: 2rem;
+    border: solid 1px rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    width: 60%;
+  }
+}
