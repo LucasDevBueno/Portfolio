@@ -67,7 +67,7 @@
         border-radius: 10px;
         padding: 0rem;
         margin: 0rem;
-        background: rgb(2,0,36);
+        background: rgb(187, 187, 187);
         background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(68,68,156,1) 35%, rgba(255,255,255,1) 100%);
     }
     
@@ -117,7 +117,7 @@
         border-radius: 10px;
         padding: 2rem;
         margin: 2rem;
-        background: rgb(56, 56, 56);
+        background: rgba(212, 209, 209, 0.514);
     }
     
 }
