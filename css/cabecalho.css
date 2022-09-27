@@ -54,7 +54,7 @@ a {
   width: 150px;
   padding: 10px;
   background: transparent;
-  border-radius: 20px;
+  border-style:dotted;
   font-size: 1rem;
   font-family: 'Fjalla One', sans-serif;
   color: rgb(0, 0, 0);
@@ -196,6 +196,9 @@ p {
   }
 }
 
+
+
+
 @media (max-width: 768px) {
   body {
     background-color:rgb(255, 255, 255);
@@ -215,7 +218,7 @@ a {
 }
 
 .container-header__item {
-  font-size: 8px;
+  font-size: 5px;
   padding: 2rem;
   font-family: 'Fjalla One', sans-serif;
   text-transform: uppercase;
@@ -286,7 +289,7 @@ p {
 .header {
   position:relative;
   text-align:center;
-  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgb(181, 182, 182) 100%);
   color:white;
 }
 .logo {
@@ -394,7 +397,7 @@ a {
 }
 
 .cor__linkedin {
-  background-color: rgb(80, 11, 241);
+  background-color: rgb(199, 199, 199);
   
 }
 

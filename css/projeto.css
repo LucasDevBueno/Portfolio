@@ -1,123 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 .projeto {
     text-align: center;
     font-size: 3rem;
-    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
     text-transform: uppercase;
-    transition: all .5s;
-    margin-bottom: 2rem;
-    margin-top:2rem ;
-}
-
-.projeto:hover{
-    transform: scale(1.1);
+    font-family: 'Oswald', sans-serif;
+    margin: 5rem;
 }
 
 .container__cover {
     display: flex;
+    margin-bottom: 5rem;
+    justify-content: center;
     flex-wrap: wrap;
+}
+
+.div-projetos {
+    display: grid;
+    margin: 1rem;
+    justify-items: center;
+    border: 2px #000 solid;
+    transition: all 0.5s;
+    border-radius: 20px;
+    background-color: rgb(190, 190, 190);
+    width: 500px;
+}
+
+.div-projetos:hover {
+    transform: scale(1.1);
+    background-color: rgb(143, 143, 143);
+    border: 4px #000 solid;
     border-radius: 10px;
-    padding: 2rem;
-    margin: 2rem;
-    background: rgb(2,0,36);
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(68,68,156,1) 35%, rgba(255,255,255,1) 100%);
 }
 
 .cover__spotify {
-    width: 300px;
-    cursor: pointer;
-    margin: 2rem;
-    border-radius: 100px;
-    transition: all .5s;
-    margin-bottom: 3rem;
+    width: 25rem;
+    height: 15rem;
+    margin: 1rem;
+    border-radius: 20px;
+    border: 1px #fff solid;
 }
 
-.cover__spotify:hover {
-    border-radius: 15px;
+.div-projetos_titulo {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(0, 0, 0);
 }
 
-.progresso {
-    border: 2px solid rgb(255, 0, 0);
+.div-projetos_p {
+    width: 80%;
+    margin: 1rem;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(0, 0, 0);
 }
 
-.progresso:hover {
-    transform: scale(none);
-}
-
-.pronto {
-    border: 2px solid rgb(0, 0, 0);
-    height: 200px;   
-}
-
-.pronto:hover{
-    transform: scale(1.1);
-    border: 2px solid rgb(33, 47, 28);
-}
-
-.container-copy {
+.container_botao-projeto {
     display: flex;
-    justify-content: center;
 }
 
-@media screen and (min-width: 375px){ 
-    .container__cover {
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        flex-wrap: wrap;
-        border-radius: 10px;
-        padding: 0rem;
-        margin: 0rem;
-        background: rgb(187, 187, 187);
-        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(68,68,156,1) 35%, rgba(255,255,255,1) 100%);
+.botao-projeto {
+    margin: 1rem;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(241, 236, 236);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.botao-projeto:hover {
+    background-color: rgb(112, 112, 112);   
+}
+
+.text_botao{
+    color: #000;
+}
+
+.text_botao:hover {
+    color: #fff;
+}
+
+
+
+
+@media screen and (min-width: 375px) {
+    .projeto {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        margin: 5rem;
     }
     
-    .cover__spotify {
-        width: 300px;
-        cursor: pointer;
-        margin: 0rem;
-        border-radius: 100px;
-        transition: all .5s;
-        margin-bottom: 3rem;
-    }
-
-    .progresso {
-        display: none;
-    }
-}
-
-@media screen  and (min-width: 768px){
-    .cover__spotify {
-        width: 300px;
-        cursor: pointer;
-        margin: 1rem;
-        border-radius: 100px;
-        transition: all .5s;
-        margin-bottom: 3rem;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .progresso {
-        display: block;
-    }
-
-    .cover__spotify {
-        width: 350px;
-        cursor: pointer;
-        margin: 2rem;
-        border-radius: 100px;
-        transition: all .5s;
-        margin-bottom: 3rem;
-        border: solid 2px #fff;
-    }
-
     .container__cover {
         display: flex;
+        margin-bottom: 5rem;
+        justify-content: center;
         flex-wrap: wrap;
-        border-radius: 10px;
-        padding: 2rem;
-        margin: 2rem;
-        background: rgba(212, 209, 209, 0.514);
+    }
+    
+    .div-projetos {
+        display: grid;
+        margin: 1rem;
+        justify-items: center;
+        border: 2px #000 solid;
+        transition: all 0.5s;
+        border-radius: 20px;
+        background-color: rgb(190, 190, 190);
+        width: 380px;
+    }
+
+    .cover__spotify {
+        width: 15rem;
+        height: 10rem;
+        margin: 1rem;
+        border-radius: 20px;
+        border: 1px #fff solid;
+    }
+    
+    .div-projetos_titulo {
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Bebas Neue', cursive;
+        color: rgb(0, 0, 0);
+    }
+    
+    .div-projetos_p {
+        width: 80%;
+        margin: 1rem;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        color: rgb(0, 0, 0);
+    }
+    
+    .container_botao-projeto {
+        display: flex;
+    }
+    
+    .botao-projeto {
+        margin: 1rem;
+        width: 150px;
+        height: 50px;
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 1rem;
+        font-family: 'Fjalla One', sans-serif;
+        color: rgb(241, 236, 236);
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    
+    .botao-projeto:hover {
+        background-color: rgb(112, 112, 112);   
+    }
+    
+    .text_botao{
+        color: #000;
+    }
+    
+    .text_botao:hover {
+        color: #fff;
+    }
+    
+}
+
+@media screen and (min-width: 1024px)  {
+    .projeto {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        margin: 5rem;
+    }
+    
+    .container__cover {
+        display: flex;
+        margin-bottom: 5rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .div-projetos {
+        display: grid;
+        margin: 1rem;
+        justify-items: center;
+        border: 2px #000 solid;
+        transition: all 0.5s;
+        border-radius: 20px;
+        background-color: rgb(190, 190, 190);
+        width: 400px;
+    }
+
+    .cover__spotify {
+        width: 20rem;
+        height: 13rem;
+        margin: 1rem;
+        border-radius: 20px;
+        border: 1px #fff solid;
+    }
+    
+    .div-projetos_titulo {
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Bebas Neue', cursive;
+        color: rgb(0, 0, 0);
+    }
+    
+    .div-projetos_p {
+        width: 80%;
+        margin: 1rem;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        color: rgb(0, 0, 0);
+    }
+    
+    .container_botao-projeto {
+        display: flex;
+    }
+    
+    .botao-projeto {
+        margin: 1rem;
+        width: 150px;
+        height: 50px;
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 1rem;
+        font-family: 'Fjalla One', sans-serif;
+        color: rgb(241, 236, 236);
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    
+    .botao-projeto:hover {
+        background-color: rgb(112, 112, 112);   
+    }
+    
+    .text_botao{
+        color: #000;
+    }
+    
+    .text_botao:hover {
+        color: #fff;
     }
     
 }
