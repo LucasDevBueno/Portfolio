@@ -7,5 +7,4 @@ Bom trabalhei em 1 semana inteira no portfolio , e com toda a certeza foi um dos
 Claro que ele n ta finalizado pois no momento começei a estudar Javascript e vou querer aplicar nele , e se vc quiser pegar como exemplo ou até usalo não tem poblema ,
 usando a criatividade vamos longe.
 
-tem um video em meu linkedin explicando e mostrando como o site foi feito .
-link linkedin = https://www.linkedin.com/in/lucasbuenodevjr/
+Para ver o Portfolio em seu navegador = https://lucasdevbueno.github.io/Portfolio/
